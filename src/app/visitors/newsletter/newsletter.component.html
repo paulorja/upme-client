@@ -1,0 +1,9 @@
+
+<div class="title ns-title">Fique por dentro!</div>
+
+<form (ngSubmit)="onSubmit()" #userInitialFields="ngForm">
+
+  <input class="ns-input" type="text" [(ngModel)]="email" name="email" placeholder="escreva seu e-mail">
+  <button class="ns-btn">Enviar</button>
+
+</form>
