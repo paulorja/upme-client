@@ -6,3 +6,5 @@
 export const environment = {
   production: false
 };
+
+process.env.API_URL = "http://localhost:3000/"
