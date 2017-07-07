@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { VisitorsComponent } from './visitors.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
+import { NewsletterService } from './newsletter/newsletter.service';
 
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
@@ -20,6 +21,9 @@ import { HttpModule } from '@angular/http';
   ],
   exports: [
     VisitorsComponent
+  ],
+  providers: [
+    NewsletterService
   ]
 })
 export class VisitorsModule { }

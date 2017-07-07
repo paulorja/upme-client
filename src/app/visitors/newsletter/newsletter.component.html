@@ -3,7 +3,18 @@
 
 <form (ngSubmit)="onSubmit()" #userInitialFields="ngForm">
 
-  <input class="ns-input" type="text" [(ngModel)]="email" name="email" placeholder="escreva seu e-mail">
-  <button class="ns-btn">Enviar</button>
+  <div *ngIf="success" class="newsletter-success" (click)="reset_states()">
+    {{ success }}
+  </div>
+  <div *ngIf="loading" class="newsletter-loading" (click)="reset_states()">
+    Aguarde...
+  </div>
+  <div *ngIf="error" class="newsletter-error" (click)="reset_states()">
+    {{ error }}
+  </div>
+  <div>
+    <input class="ns-input" type="text" [(ngModel)]="email" name="email" placeholder="escreva seu e-mail">
+    <button class="ns-btn">Enviar</button>
+  </div>
 
 </form>

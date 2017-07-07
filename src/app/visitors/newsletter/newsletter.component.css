@@ -32,3 +32,36 @@
     width: 190px;
   }
 }
+
+.newsletter-loading {
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  font-size: 16px;
+  color: #00ccff;
+  background: #eee;
+  display: inline-block;
+  padding: 4px;
+  border-radius: 5px;
+  margin-bottom: 4px;
+}
+
+.newsletter-error {
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  font-size: 16px;
+  color: #fc7b7b;
+  background: #eee;
+  display: inline-block;
+  padding: 4px;
+  border-radius: 5px;
+  margin-bottom: 4px;
+}
+
+.newsletter-success {
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  font-size: 16px;
+  color: #2c8737;
+  background: #eee;
+  display: inline-block;
+  padding: 4px;
+  border-radius: 5px;
+  margin-bottom: 4px;
+}
