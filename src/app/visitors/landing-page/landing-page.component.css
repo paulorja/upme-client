@@ -105,3 +105,12 @@
     background-image: url("/assets/visitors/bg-mobile.png");
   }
 }
+
+@media only screen and (max-height: 350px) {
+  #bottom-logo {
+    display: none;
+  }
+  .title {
+    display: none;
+  }
+}
