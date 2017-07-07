@@ -20,6 +20,7 @@ export class NewsletterComponent implements OnInit {
   }
 
   onSubmit() {
+    this.reset_states();
     this.loading = true;
     this.newsletter_service.add_newsletter(this.email).subscribe(data => {
       this.reset_states();
