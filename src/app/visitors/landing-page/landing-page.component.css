@@ -24,6 +24,7 @@
     height: 100%;
     text-align: center;
     background-image: url("/assets/visitors/bg-wide.png");
+    background-position: right 15%;
     margin: 0px;
 }
 
@@ -54,18 +55,20 @@
   position: absolute;
   bottom: 0px;
   color: #222;
-  font-size: 36px;
-  width: 1px;
-  margin-left: 13%; 
+  font-size: 28px;
+  line-height: 28px;
+  width: 200px;
+  bottom: 15px;
+  right: 170px;
 }
 
 #bottom-logo {
   position: absolute;
   background-image: url("/assets/visitors/logo.png");
-  width: 250px;
-  height: 110px;
-  bottom: 0px;
-  right: 16%;
+  width: 200px;
+  height: 80px; 
+  bottom: 15px;
+  right: 15px;
   background-size: cover;
   background-position: center center;
 }
@@ -84,25 +87,17 @@
   }
 
   #bottom-label {
-    width: 100%;
-    bottom: 23%;
-    margin-left: 0px;
-    text-align: center;
+    font-size: 18px;
+    width: 150px;
+    line-height: 18px;
   }
 
   #bottom-logo {
-    width: 100%;
-    height: 110px;
-    bottom: 0%;
-    right: 0px;
-    background-size: auto 100%;
-    background-repeat: no-repeat;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .landing-container{
-    background-image: url("/assets/visitors/bg-mobile.png");
   }
 }
 
