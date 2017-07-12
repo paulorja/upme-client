@@ -24,6 +24,7 @@
     height: 100%;
     text-align: center;
     background-image: url("/assets/visitors/bg-wide.png");
+    background-size: 100% auto;
     background-position: right 15%;
     margin: 0px;
 }
