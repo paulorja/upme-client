@@ -74,6 +74,11 @@
   background-position: center center;
 }
 
+.video-yt {
+  width: 206px;
+  height: 130px;
+}
+
 @media only screen and (max-width: 1000px) {
   
   .landing-content {
@@ -93,18 +98,17 @@
     line-height: 18px;
   }
 
-  #bottom-logo {
-  }
 }
 
 @media only screen and (max-width: 600px) {
-  .landing-container{
+  .video-yt {
+    width: 150px;
+    height: 90px;
   }
 }
 
 @media only screen and (max-height: 350px) {
   #bottom-logo {
-    display: none;
   }
   .title {
     display: none;
