@@ -1,6 +1,11 @@
-# UpmeClient
+# [UpMe!](https://upmeapp.com.br)
+
+# Upme Client
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.3.
+
+# Back-end
+[Rails API repository](https://github.com/paulorja/upme-server)
 
 ## Development server
 
